@@ -9,6 +9,13 @@ h1 {
     background-color: grey;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
 .footer-class{
     text-align: center;
     font-weight: bold;
