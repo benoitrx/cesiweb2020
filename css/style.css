@@ -1,6 +1,8 @@
 body{
     color: honeydew;
     background-color: darkslategray;
+    margin: 100px 0px;
+    padding: 0;
 }
 
 h1 {
@@ -16,6 +18,12 @@ h1 {
     width: 10%;
   }
 
+#navigation{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+	grid-template-rows: repeat(2,100%);
+}
+
 .footer-class{
     text-align: center;
     font-weight: bold;
@@ -29,6 +37,13 @@ a {
 
 header{
     font-style: italic;
+   
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 form {
