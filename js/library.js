@@ -3,6 +3,9 @@ function sumbitButtonOnClick(){
 }
 
 function hideButton(el){
-    //document.getElementById(submitButton).style.display = none;
     el.style.visibility='hidden';
+}
+
+function showButton(){
+    document.getElementById("submitButton").style.visibility = 'visible';
 }
